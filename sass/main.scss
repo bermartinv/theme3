@@ -1,6 +1,7 @@
 @import "abstracts/functions.scss";
 @import "abstracts/mixins.scss";
 @import "abstracts/variables.scss";
+@import "abstracts/extend.scss";
 
 @import "base/animations.scss";
 @import "base/base.scss";
@@ -16,3 +17,5 @@
 @import "layout/story.scss";
 @import "layout/container.scss";
 
+@import "components/feature.scss";
+@import "components/button.scss";
