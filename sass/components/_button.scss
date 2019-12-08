@@ -1,12 +1,12 @@
 .btn {
     font-family: $font-display;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     display: inline-block;
     width: 200px;
     padding: 1.8rem 3rem;
     cursor: pointer;
-    color: #fff;
+    color: $color-primary-dark;
     border: none;
     text-align: center;
     outline: none;
@@ -19,6 +19,7 @@
                   background-color: $color-primary-dark;
                   transition: background-color 0.3s ease-in,
                    color 0.3s ease-in;
+                  color: white;
                 }
 
   }

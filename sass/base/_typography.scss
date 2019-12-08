@@ -6,11 +6,11 @@ body {
 }
 
 
-heading-1 {
+.heading-1 {
     @extend %heading;
 }
 
-heading-2 {
+.heading-2 {
     @extend %heading;
     font-size: 4rem;
     font-style: italic;
@@ -24,7 +24,7 @@ heading-2 {
     }
 }
 
-heading-3 {
+.heading-3 {
     @extend %heading;
     font-size: 1.6rem;
     color: $color-primary;
